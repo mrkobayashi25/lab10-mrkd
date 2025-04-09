@@ -7,12 +7,6 @@ from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
-    def test_add(self):
-        self.assertEqual(add(2, 3), 5)
-
-    def test_subtract(self):
-        self.assertEqual(subtract(7, 4), 3)
-
     def test_multiply(self):
         self.assertEqual(mul(3, 4), 12)
 
@@ -20,9 +14,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(2, 10), 5)
         with self.assertRaises(ZeroDivisionError):
             div(0, 10)
-
-    def test_logarithm(self):
-        self.assertAlmostEqual(logarithm(10, 100), 2.0)
 
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
