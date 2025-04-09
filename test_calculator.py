@@ -7,7 +7,6 @@ from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
-    # Partner's responsibilities
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
 
@@ -17,7 +16,6 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self):
         self.assertAlmostEqual(logarithm(10, 100), 2.0)
 
-    # Your responsibilities
     def test_multiply(self):
         self.assertEqual(mul(3, 4), 12)
 
