@@ -4,7 +4,6 @@
 
 import math
 
-# New functions go first
 def square_root(a):
     if a < 0:
         raise ValueError("Cannot take square root of a negative number")
@@ -13,7 +12,6 @@ def square_root(a):
 def hypotenuse(a, b):
     return math.hypot(a, b)
 
-# Original functions below
 def add(a, b):
     return a + b
 
