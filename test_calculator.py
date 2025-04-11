@@ -4,7 +4,7 @@
 
 import unittest
 import math
-from calculator import *
+from calculator import square_root, hypotenuse, add, subtract, mul, div, exp, logarithm
 
 class TestCalculator(unittest.TestCase):
 
