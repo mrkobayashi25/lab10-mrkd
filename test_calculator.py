@@ -6,7 +6,7 @@ import unittest
 import math
 from calculator import *
 
-class TestCalculator(unittest.TestCase)
+class TestCalculator(unittest.TestCase):
 
 # Partner 1 Tests
     def test_multiply(self):
