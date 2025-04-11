@@ -36,19 +36,19 @@ class TestCalculator(unittest.TestCase):
 
 #Partner 2's test functions
 
-    def test_add():
+    def test_add(self):
         assert add(2, 3) == 5
         assert add(-1, -1) == -2
-        assert add(0, 0) = 0
+        assert add(0, 0) == 0
         print("test_add passed")
 
-    def test_substract():
+    def test_substract(self):
         assert sub(5, 2) == 3
         assert sub(0, 3) == -3
         assert sub(-2, -2) = 0
         print("test_sub passed")
 
-    def test_divide_by_zero():
+    def test_divide_by_zero(self):
         try:
             div(0, 5)
         except ZeroDivisionError as e:
@@ -56,12 +56,12 @@ class TestCalculator(unittest.TestCase):
         else:
             print("test_divide_by_zero failed.")
 
-    def test_logarithm():
+    def test_logarithm(self):
         assert round(log(10, 100), 6) == 2
         assert round(log(2, 8), 6) == 3
         print("test_logarithm passed.")
 
-    def test_log_invalid_base():
+    def test_log_invalid_base(self):
         try:
             log(1, 10)
         except ValueError:
