@@ -3,12 +3,11 @@
 # Partner 2: Isabelle Sundin
 
 import unittest
-import math
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
-# Partner 1 Tests
+    # Partner 1 Tests
     def test_multiply(self):
         self.assertEqual(mul(3, 4), 12)
         self.assertEqual(mul(-2, 5), -10)
