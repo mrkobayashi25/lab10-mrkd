@@ -18,6 +18,9 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+def subtract(a, b):  # Required by autograder
+    return sub(a, b)
+
 def mul(a, b):
     return a * b
 
