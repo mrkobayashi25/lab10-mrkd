@@ -42,7 +42,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
         print("test_add passed")
 
-    def test_substract(self):
+    def test_substract(self):*
         self.assertEqual(sub(5, 3), 2)
         self.assertEqual(sub(0, 3), -3)
         self.assertEqual(sub(-2, -2), 0)
@@ -52,12 +52,12 @@ class TestCalculator(unittest.TestCase):
        with self.assertRaises(ZeroDivisionError):
            div(0, 5)
 
-    def test_logarithm(self):
+    def test_logarithm(self):*
         self.assertEqual(round(log(10, 100), 6), 2)
         self.assertEqual(round(log(2, 8), 6), 3)
         print("test_logarithm passed.")
 
-    def test_log_invalid_base(self):
+    def test_log_invalid_base(self):*
         with self.assertRaises(ValueError):
             log(1, 10)
         with self.assertRaises(ValueError):
