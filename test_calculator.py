@@ -1,6 +1,6 @@
 # https://github.com/mrkobayashi25/lab10-mrkd
 # Partner 1: Mason Downs
-# Partner 2: N/A
+# Partner 2: Isabelle Sundin
 
 import unittest
 from calculator import *
