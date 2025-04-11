@@ -1,4 +1,4 @@
-# https://github.com/mrkobayashi25/lab10-mrkd
+# https://github.com/mrkobayashi25/lab10-mrkd-is
 # Partner 1: Mason Downs
 # Partner 2: Isabelle Sundin
 
