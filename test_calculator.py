@@ -7,13 +7,7 @@ import math
 from calculator import *
 
 
-import unittest
-from calculator import *
-
-class TestCalculator(unittest.TestCase):
-    
-    # Partner 1 Tests
-    
+ # Partner 1 Tests
     def test_multiply(self):
         self.assertEqual(mul(3, 4), 12)
         self.assertEqual(mul(-2, 5), -10)
@@ -41,16 +35,15 @@ class TestCalculator(unittest.TestCase):
             square_root(-4)
 
     # Partner 2 Tests
-   
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
         self.assertEqual(add(-1, -1), -2)
         self.assertEqual(add(0, 0), 0)
 
-    def test_subtract(self):
-        self.assertEqual(subtract(5, 3), 2)
-        self.assertEqual(subtract(0, 3), -3)
-        self.assertEqual(subtract(-2, -2), 0)
+    def test_sub(self):
+        self.assertEqual(sub(5, 3), 2)
+        self.assertEqual(sub(0, 3), -3)
+        self.assertEqual(sub(-2, -2), 0)
 
     def test_exp(self):
         self.assertEqual(exp(2, 3), 8)
