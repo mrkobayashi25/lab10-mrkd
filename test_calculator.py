@@ -43,17 +43,17 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
 
     def test_subtract(self):
-        self.assertEqual(sub(5, 3), 2)
-        self.assertEqual(sub(0, 3), -3)
-        self.assertEqual(sub(-2, -2), 0)
+        self.assertEqual(subtract(5, 3), 2)
+        self.assertEqual(subtract(0, 3), -3)
+        self.assertEqual(subtract(-2, -2), 0)
 
     def test_divide_by_zero(self):
        with self.assertRaises(ZeroDivisionError):
            div(0, 5)
 
     def test_logarithm(self):
-        self.assertEqual(round(log(10, 100), 6), 2)
-        self.assertEqual(round(log(2, 8), 6), 3)
+        self.assertEqual(round(logarithm(10, 100), 6), 2)
+        self.assertEqual(round(logarithm(2, 8), 6), 3)
 
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
