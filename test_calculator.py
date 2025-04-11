@@ -6,24 +6,6 @@ import unittest
 import math
 from calculator import *
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class TestCalculator(unittest.TestCase):
 
     def test_multiply(self):
