@@ -44,11 +44,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(5, 3), 2)
         self.assertEqual(subtract(0, 3), -3)
         self.assertEqual(subtract(-2, -2), 0)
-
-def test_divide_by_zero(self):
-    with self.assertRaises(ZeroDivisionError):
-        div(0, 5) 
-
+        
+    def test_divide_by_zero(self):
+        with self.assertRaises(ZeroDivisionError):
+            div(0, 5)
+            
     def test_logarithm(self):
         self.assertAlmostEqual(logarithm(10, 100), 2.0)
         self.assertAlmostEqual(logarithm(2, 8), 3.0)
