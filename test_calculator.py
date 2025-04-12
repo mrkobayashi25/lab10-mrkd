@@ -40,7 +40,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(-1, -1), -2)
         self.assertEqual(add(0, 0), 0)
 
-    def test_sub(self):
+    def test_subtract(self):
         self.assertEqual(sub(5, 3), 2)
         self.assertEqual(sub(0, 3), -3)
         self.assertEqual(sub(-2, -2), 0)
